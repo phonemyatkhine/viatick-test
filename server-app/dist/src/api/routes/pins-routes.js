@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const pins_1 = require("../controllers/pins");
+const router = (0, express_1.Router)();
+router.post("/", pins_1.store);
+router.get("/", pins_1.index);
+router.get("/:id", pins_1.show);
+router.put("/:id", pins_1.update);
+router.delete("/:id", pins_1.destroy);
+exports.default = router;

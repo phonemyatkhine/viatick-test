@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const users_1 = require("../controllers/users");
+// import { index as indexDevices } from "../controllers/deviceUsers";
+const router = (0, express_1.Router)();
+router.post("/", users_1.store);
+router.get("/", users_1.index);
+router.get("/:id", users_1.show);
+router.put("/:id", users_1.update);
+router.delete("/:id", users_1.destroy);
+router.get("/:id/pins/", users_1.indexPins);
+router.get("/:id/pins/:pinId/simulate-route/", users_1.simulateRoute);
+exports.default = router;
