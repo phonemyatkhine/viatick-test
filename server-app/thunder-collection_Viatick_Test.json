@@ -1,0 +1,151 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Viatick_Test",
+    "dateExported": "2023-02-21T00:57:11.732Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "be729189-4535-4cec-b8ce-679e636580f7",
+            "name": "Users",
+            "containerId": "",
+            "created": "2023-02-19T08:25:30.244Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "4852c19c-dd73-4a33-b0cb-9a37bfe22418",
+            "name": "Pins",
+            "containerId": "",
+            "created": "2023-02-19T09:07:41.991Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "42343b5b-058f-4ee4-8a58-fddbb8aa0ded",
+            "colId": "2433cc16-e55c-431b-a48e-66e7caafe241",
+            "containerId": "be729189-4535-4cec-b8ce-679e636580f7",
+            "name": "http://localhost:8000/api/users/",
+            "url": "http://localhost:8000/api/users/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-02-18T20:52:42.684Z",
+            "modified": "2023-02-19T08:25:34.320Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3dbfa514-eef5-4229-bc2e-0caf55258a01",
+            "colId": "2433cc16-e55c-431b-a48e-66e7caafe241",
+            "containerId": "4852c19c-dd73-4a33-b0cb-9a37bfe22418",
+            "name": "http://localhost:8000/api/pins/",
+            "url": "http://localhost:8000/api/pins/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-19T09:07:21.393Z",
+            "modified": "2023-02-21T00:02:52.670Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"long\" : \"94.1635\",\n  \"lat\" : \"22\",\n  \"userId\" : \"1\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d5eff10d-a610-45f2-b523-36cd90093abc",
+            "colId": "2433cc16-e55c-431b-a48e-66e7caafe241",
+            "containerId": "be729189-4535-4cec-b8ce-679e636580f7",
+            "name": "http://localhost:8000/api/users",
+            "url": "http://localhost:8000/api/users",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-02-18T20:52:48.607Z",
+            "modified": "2023-02-19T08:25:35.583Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"phonemyatkhine@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "66fb6e06-47ec-4fda-9e9a-826c0f0638ba",
+            "colId": "2433cc16-e55c-431b-a48e-66e7caafe241",
+            "containerId": "be729189-4535-4cec-b8ce-679e636580f7",
+            "name": "http://localhost:8000/api/users/1",
+            "url": "http://localhost:8000/api/users/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-02-18T21:15:53.318Z",
+            "modified": "2023-02-19T08:25:36.527Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"phonemyatkhine8@gmail.com\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9b29ba78-510e-46f7-bdfb-d4050a66931d",
+            "colId": "2433cc16-e55c-431b-a48e-66e7caafe241",
+            "containerId": "be729189-4535-4cec-b8ce-679e636580f7",
+            "name": "http://localhost:8000/api/users/1",
+            "url": "http://localhost:8000/api/users/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-02-18T21:31:23.527Z",
+            "modified": "2023-02-19T08:25:37.464Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f8aa5f38-31d1-4f90-9b1f-e4825f532396",
+            "colId": "2433cc16-e55c-431b-a48e-66e7caafe241",
+            "containerId": "be729189-4535-4cec-b8ce-679e636580f7",
+            "name": "http://localhost:8000/api/users/2",
+            "url": "http://localhost:8000/api/users/2",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2023-02-18T21:32:15.734Z",
+            "modified": "2023-02-19T08:25:38.498Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2dad47cf-0d1e-44c4-9396-ef306ed75425",
+            "colId": "2433cc16-e55c-431b-a48e-66e7caafe241",
+            "containerId": "be729189-4535-4cec-b8ce-679e636580f7",
+            "name": "http://localhost:8000/api/users/1/pins",
+            "url": "http://localhost:8000/api/users/1/pins",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-02-19T09:40:05.651Z",
+            "modified": "2023-02-19T09:40:05.651Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8fecf61c-6fcd-4b15-b500-21def7d1b38e",
+            "colId": "2433cc16-e55c-431b-a48e-66e7caafe241",
+            "containerId": "",
+            "name": "http://localhost:8000/api/users/1/pins/3/simulate-route",
+            "url": "http://localhost:8000/api/users/1/pins/3/simulate-route",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-02-19T23:34:12.140Z",
+            "modified": "2023-02-19T23:34:12.140Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
