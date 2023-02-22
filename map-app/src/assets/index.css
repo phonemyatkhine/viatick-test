@@ -13,7 +13,7 @@ code {
 }
 
 .map-container {
-  height: 100vw;
+  height: 200vh;
 }
 
 .marker {
@@ -35,6 +35,8 @@ code {
   border-radius: 80%;
   cursor: pointer;
 }
+
+
 
 .container {
   height: 300px;
@@ -64,6 +66,41 @@ code {
 
 .total-pins {
   padding: 3%;
+  padding-left: 15%;
   padding-bottom: 1%;
   text-align: center;
+}
+
+.total-pins-count {
+  width: 14%;
+  color: yellowgreen;
+}
+
+.marker-card {
+  padding-left: 10%;
+}
+
+.marker-card-active {
+  background-color: lightgray;
+  padding-left: 10%;
+}
+
+
+.delete-btn {
+  background-image: url('trash-can-red.svg');
+  background-size: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-top: -3%;
+}
+
+.delete-btn:hover {
+  background-image: url('trash-can.svg');
+  background-size: no-repeat;
+  background-size: contain;
+  width: 40px;
+  height: 40px;
+  margin-top: -3%;
+
 }
