@@ -5,6 +5,10 @@ Please input the sql file and check DB configuration in the .env file.
     npm i
     npm run dev
 
+Run Tests with 
+    
+    npm run test
+
  - User, Pins CRUD.
  - Haversine Distance calculation between two coordinates. (Lat1, Long1) (Lat2, Long2)
  - Graph based on Adjacency matrix using coordinates and distance between them.
