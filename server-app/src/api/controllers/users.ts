@@ -2,7 +2,11 @@ import { Request, RequestHandler, Response } from "express";
 import * as userDAL from "../../database/data-access/users";
 import User, { UserInputData } from "../../database/models/User";
 import * as pinDAL from "../../database/data-access/pins";
-import { getDistances, getDistArr, getFurtherestPinId } from "../../lib/distance-helper";
+import {
+  getDistances,
+  getDistArr,
+  getFurtherestPinId,
+} from "../../lib/distance-helper";
 import { PinOutPutData } from "../../database/models/Pin";
 import { generateGraph } from "../../lib/graph-helper";
 import { dijkstra } from "../../lib/dijkstra-algorithm";

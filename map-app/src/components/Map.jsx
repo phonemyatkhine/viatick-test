@@ -213,9 +213,7 @@ function Map() {
     });
   };
   //draw geometry
-  console.log(simulatedPinsRef.current);
 
-  console.log(active);
   return (
     <div>
       <div className="col row">
